@@ -1,0 +1,80 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    
+    height: 100%; /* Optional */
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+input{
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 95%;
+
+}
+
+.inputsBorder{
+    display: flex;
+    flex-direction: column;
+    border: #ac6382 solid 2px;
+    width: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 2rem;
+}
+
+input[type="text"],
+input[type="password"], input[type="email"] {
+  color: #e0e0e0;
+  height: 1.5rem;
+  background-color: #2b0f1b;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #b7285c;
+  border: 1px solid #661935;
+  color: #ffffffa1;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+input[type="submit"]:hover {
+  background: #521229;
+  transition: ease-in-out 500ms;
+}
+.imputsBorder{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.imputsBorder input{
+  width: auto;
+}
+.error_msg{
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  word-wrap: break-word;
+}
+.DangerZone{
+  max-width: 500px;
+}
