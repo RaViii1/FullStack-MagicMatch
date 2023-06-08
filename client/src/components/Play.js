@@ -2,8 +2,8 @@ import '../App.css';
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './Card';
-import checkToken from './Token';
+import Card from './elements/Card';
+import checkToken from './elements/Token';
 import jwt_decode from "jwt-decode";
 const cardImages = [
   {"src": "/img/axe.png", matched: false},

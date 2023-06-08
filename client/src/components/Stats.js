@@ -2,7 +2,7 @@ import React from "react";
 import './css/inputs.css';
 import '../App.css';
 
-import Scores from "./Scores";
+import Scores from "./elements/Scores";
 export default function Stats(){
     
 

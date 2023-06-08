@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './css/inputs.css';
 import '../App.css';
 import axios from "axios";
-import checkToken from "./Token";
+import checkToken from "./elements/Token";
 import jwt_decode from "jwt-decode";
 
 export default function Profile(){

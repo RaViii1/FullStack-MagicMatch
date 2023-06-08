@@ -1,31 +1,12 @@
 import './App.css';
-
 import { Route, Routes, Navigate } from "react-router-dom"
-import Navbar from './components/Navbar';
+import Navbar from './components/elements/Navbar';
 import Stats from "./components/Stats";
 import Play from './components/Play';
 import Home from './components/Home';
-// // import Login from './components/Login';
-// // import Register from './components/Register';
-
-// export default function App() {
-
-//   return (
-//     <>
-//     <Navbar/>
-//     <Routes> 
-//     <Route path='/' element={<Home/>}/>
-//       <Route path='/Play' element={<Play/>}/>
-//       <Route path='/Stats' element={<Stats/>}/>
-//       {/* <Route path='/Login' element={<Login/>}/>
-//       <Route path='/Register' element={<Register/>}/> */}
-//     </Routes>
-//     </>
-//   );
-// }
 
 import Signup from "./components/Signup"
-import Footer from "./components/Footer"
+import Footer from "./components/elements/Footer"
 import Login from "./components/Login"
 import Profile from "./components/Profile"
 function App() {
